@@ -1,5 +1,5 @@
 const path = require("path");
-const ExtractTextPlugin = "extract-text-webpack-plugin";
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const SRC_DIR = path.join(__dirname, "/public/src");
 const DIST_DIR = path.join(__dirname, "/");
 
@@ -15,28 +15,26 @@ module.exports = {
 				test: /\.jsx?/,
 				loader: "babel-loader",
 				options: {
-					presets: ["@babel/preset-env", "@babel/preset-react"]
+					presets: ["@babel/preset-react", "@babel/preset-env"]
 				},
 				exclude: /node_modules/
 			},
 			{
 				test: /\.css$/,
-				loader: ExtractTextPlugin(
-					"style-loader",
-					combineLoaders([
-						{
-							loader: "css-loader",
-							options: {
-								modules: true,
-								localIdentName: "[name]__[local]___[hash:base64:5]"
-							}
+				use: [
+					MiniCssExtractPlugin.loader,
+					{
+						loader: "css-loader",
+						options: {
+							modules: true,
+							localIdentName: "[name]__[local]___[hash:base64:5]"
 						}
-					])
-				)
+					}
+				]
 			}
 		]
 	},
-	resolve: ["js", "jsx"],
-	plugins: [new ExtractTextPlugin("style.css")],
+	resolve: { extensions: [".js", ".jsx"] },
+	plugins: [new MiniCssExtractPlugin({ filename: "style.css" })],
 	mode: "development"
 };
