@@ -5,9 +5,9 @@ import styles from "./Info.css";
 class Info extends Component {
 	render() {
 		return (
-			<main className="mainWrapper">
-				<div className="mainContainer">
-					<h3 className="infoBio">
+			<main styleName="mainWrapper">
+				<div styleName="mainContainer">
+					<h3 styleName="infoBio">
 						Hi! I am a motion graphic designer that graduated from Art Center
 						College of Design. I love to create motion pieces that draw the
 						viewer into a different mood or world. Through my travels around the
