@@ -4,7 +4,14 @@ import styles from "./ProjectEntry.css";
 
 class ProjectEntry extends Component {
 	render() {
-		return <div>ProjectEntry</div>;
+		const { title, imgUrl } = this.props;
+		return (
+			<li styleName="entry">
+				<div styleName="imgContainer">
+					<img src={imgUrl} alt={title} />
+				</div>
+			</li>
+		);
 	}
 }
 
