@@ -8,6 +8,11 @@
 	min-height: 100vh;
 }
 
+/* .appFrame > * {
+	-ms-flex: none;
+	flex: none;
+} */
+
 .Header__headerMain___12pyy {
 	padding-left: 2.4rem;
 	padding-right: 2.4rem;
@@ -65,7 +70,71 @@
 
 
 
+.Work__mainWrapper___2Nio0 {
+	visibility: visible;
+}
+
+.Work__mainContainer___3cfdw {
+	max-width: 140rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.Work__componentsContainer___1YoJg {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	min-width: 0;
+	max-width: 100%;
+	background-color: goldenrod;
+}
 
 
+.ProjectList__mainWrapper___3Cke2 {
+	padding: 3.2rem 2.4rem 4rem;
+}
+
+.ProjectList__projectList___3vbY5 {
+	margin-bottom: 4rem;
+	border-top: 0.4rem solid #f4f6f8;
+}
+
+@media (min-width: 30em) {
+	.ProjectList__projectList___3vbY5 {
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+	}
+}
+
+@media (min-width: 48em) {
+	.ProjectList__projectList___3vbY5 {
+		padding-top: 4rem;
+	}
+}
+
+@media (min-width: 60em) {
+	.ProjectList__mainWrapper___3Cke2 {
+		padding-left: 3.2rem;
+		padding-top: 4rem;
+		padding-right: 3.2rem;
+		padding-bottom: 4rem;
+	}
+}
+
+@media (min-width: 67.5em) {
+	.ProjectList__mainWrapper___3Cke2 {
+		padding: 4.8rem 8rem 12.8rem;
+	}
+}
+
+@media (min-width: 90em) {
+	.ProjectList__mainWrapper___3Cke2 {
+		padding-left: 12.8rem;
+		padding-right: 12.8rem;
+	}
+}
 
 

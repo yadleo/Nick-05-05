@@ -1,0 +1,17 @@
+.mainWrapper {
+	visibility: visible;
+}
+
+.mainContainer {
+	max-width: 140rem;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.componentsContainer {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	min-width: 0;
+	max-width: 100%;
+	background-color: goldenrod;
+}

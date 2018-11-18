@@ -7,3 +7,8 @@
 	flex-direction: column;
 	min-height: 100vh;
 }
+
+/* .appFrame > * {
+	-ms-flex: none;
+	flex: none;
+} */

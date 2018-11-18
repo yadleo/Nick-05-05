@@ -4,12 +4,21 @@ import styles from "./ProjectList.css";
 import ProjectEntry from "./ProjectEntry/ProjectEntry";
 
 class ProjectList extends Component {
+	constructor(props) {
+		super(props);
+		this.state = {};
+	}
 	// map ProjectEntry
 	render() {
 		return (
-			<div>
+			<div styleName="mainWrapper">
 				ProjectList
-				<ProjectEntry />
+				<ul styleName="projectList">
+					<ProjectEntry />
+					<ProjectEntry />
+					<ProjectEntry />
+					<ProjectEntry />
+				</ul>
 			</div>
 		);
 	}

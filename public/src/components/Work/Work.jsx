@@ -7,9 +7,13 @@ import ProjectList from "./ProjectList/ProjectList";
 class Work extends Component {
 	render() {
 		return (
-			<main>
-				<Reel />
-				<ProjectList />
+			<main styleName="mainWrapper">
+				<div styleName="mainContainer">
+					<section styleName="componentsContainer">
+						<Reel />
+						<ProjectList />
+					</section>
+				</div>
 			</main>
 		);
 	}
