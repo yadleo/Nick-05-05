@@ -5,9 +5,9 @@ import styles from "./HeaderNav.css";
 class HeaderNav extends Component {
 	render() {
 		return (
-			<div className="container">
-				<div className="NavItem">work</div>
-				<div className="NavItem">info</div>
+			<div styleName="container">
+				<div>work</div>
+				<div>info</div>
 			</div>
 		);
 	}
