@@ -20,6 +20,12 @@
 	background-color: black;
 }
 
+@media (max-width: 47.99em) {
+	.Header__headerMain___12pyy {
+		height: 7rem;
+	}
+}
+
 .Header__headerContainer___3FWhi {
 	max-width: 140rem;
 	margin-left: auto;
@@ -52,15 +58,31 @@
 	text-transform: uppercase;
 }
 
-a {
+@media (max-width: 47.99em) {
+	.HeaderNav__container___2Ufwb {
+		-ms-flex-direction: row;
+		flex-direction: row;
+		align-items: center;
+	}
+}
+
+.HeaderNav__container___2Ufwb a {
 	text-decoration: none;
 	color: white;
+	margin-left: 2rem;
 }
 
 .HeaderLogo__container___1E06d {
 	margin: 1rem;
 	width: 10rem;
 	height: 10rem;
+}
+
+@media (max-width: 47.99em) {
+	.HeaderLogo__container___1E06d {
+		width: 6rem;
+		height: 6rem;
+	}
 }
 
 .HeaderLogo__logo___KkOvj {

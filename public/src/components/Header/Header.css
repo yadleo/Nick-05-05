@@ -5,6 +5,12 @@
 	background-color: black;
 }
 
+@media (max-width: 47.99em) {
+	.headerMain {
+		height: 7rem;
+	}
+}
+
 .headerContainer {
 	max-width: 140rem;
 	margin-left: auto;

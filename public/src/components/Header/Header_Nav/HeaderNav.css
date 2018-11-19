@@ -13,7 +13,16 @@
 	text-transform: uppercase;
 }
 
-a {
+@media (max-width: 47.99em) {
+	.container {
+		-ms-flex-direction: row;
+		flex-direction: row;
+		align-items: center;
+	}
+}
+
+.container a {
 	text-decoration: none;
 	color: white;
+	margin-left: 2rem;
 }
