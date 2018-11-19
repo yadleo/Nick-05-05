@@ -26,6 +26,7 @@ class OneHundredSeasonFiveOpening extends Component {
 							we then had to create the world that remained in the aftermath of
 							Praimfaya.
 							<br />
+							<br />
 							This project was worked on during an internship at
 							<a href="http://www.plucky.la/"> Plucky</a>.
 							<br />

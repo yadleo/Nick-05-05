@@ -5,7 +5,7 @@ import styles from "./ProjectTemplate.css";
 class FormulationExhibitBook extends Component {
 	render() {
 		return (
-			<main styleName="mainWrapper">
+			<main styleName="mainWrapper" style={{ "margin-top": 0 }}>
 				<div styleName="mainContainer">
 					<article styleName="infoContainer">
 						<h1 styleName="infoTitle">Formulation Exhibit Book</h1>

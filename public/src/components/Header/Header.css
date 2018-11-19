@@ -1,4 +1,7 @@
 .headerMain {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
 	padding-left: 3.2rem;
 	padding-right: 3.2rem;
 	height: 12rem;

@@ -24,6 +24,7 @@ class UltimateExEyelinerSpot extends Component {
 							Black, Ease of Application, and Smudge Proof, we created an unique
 							and elegant fantasy world that the eyeliner lives in.
 							<br />
+							<br />
 							This project was worked on during an internship at
 							<a href="http://www.craflux.com/"> CRAFLUX</a>.
 							<br />

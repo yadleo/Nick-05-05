@@ -2,6 +2,12 @@
 	visibility: visible;
 }
 
+@media (min-width: 60em) {
+	.mainWrapper {
+		margin-top: -9.5rem;
+	}
+}
+
 .mainContainer {
 	max-width: 80rem;
 	margin-right: auto;
