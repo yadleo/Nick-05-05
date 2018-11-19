@@ -18,7 +18,7 @@ class ProjectList extends Component {
 					projTitle: "the_100_season_5_opening",
 					imgTitle: "the100_s5credits",
 					imgUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542658322/Nick%2005-05/gifs/the100_960px.gif"
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542659405/Nick%2005-05/gifs/the100_960px_2.gif"
 				},
 				{
 					projTitle: "1028_ultimate_ex_eyeliner_spot",
