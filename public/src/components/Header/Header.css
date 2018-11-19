@@ -1,7 +1,8 @@
 .headerMain {
-	padding-left: 2.4rem;
-	padding-right: 2.4rem;
-	height: 7.2rem;
+	padding-left: 3.2rem;
+	padding-right: 3.2rem;
+	height: 12rem;
+	background-color: black;
 }
 
 .headerContainer {
@@ -19,36 +20,4 @@
 .headerContainer > * {
 	-ms-flex: 0 0 auto;
 	flex: 0 0 auto;
-}
-
-@media (max-width: 59.99em) {
-	.headerMain {
-		background-color: #ff44ff;
-	}
-	/* temporary */
-	.headerContainer {
-		top: 0.8rem;
-	}
-
-	/* .navigation { */
-	/* position: absolute;
-		z-index: 300;
-		top: 0.8rem;
-		right: 0;
-		left: -1.6rem; */
-	/* } */
-}
-
-@media (min-width: 60em) {
-	.headerMain {
-		padding-left: 3.2rem;
-		padding-right: 3.2rem;
-		height: 12rem;
-		background-color: aquamarine;
-	}
-	/* .navigation {
-		display: -ms-flex-box;
-		display: flex;
-		width: 100%;
-	} */
 }

@@ -1,0 +1,10 @@
+.container {
+	margin: 1rem;
+	width: 10rem;
+	height: 10rem;
+}
+
+.logo {
+	width: 100%;
+	height: auto;
+}

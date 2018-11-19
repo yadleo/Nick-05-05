@@ -1,14 +1,19 @@
 .container {
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 1;
+	letter-spacing: 1.2rem;
 	display: -ms-flexbox;
 	display: flex;
-	margin-right: 2rem;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-pack: justify;
+	justify-content: space-evenly;
+	margin: 1rem;
+	text-transform: uppercase;
 }
 
-@media (min-width: 60em) {
-	.container {
-		-ms-flex-direction: column;
-		flex-direction: column;
-		justify-content: space-between;
-		margin-bottom: 2rem;
-	}
+a {
+	text-decoration: none;
+	color: white;
 }

@@ -9,10 +9,8 @@ class Header extends Component {
 		return (
 			<header styleName="headerMain">
 				<div styleName="headerContainer">
-					{/* <div styleName="navigation"> */}
 					<HeaderLogo />
 					<HeaderNav />
-					{/* </div> */}
 				</div>
 			</header>
 		);
