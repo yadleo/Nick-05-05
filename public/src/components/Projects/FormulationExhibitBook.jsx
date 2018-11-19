@@ -29,7 +29,7 @@ class FormulationExhibitBook extends Component {
 					</article>
 					<div styleName="imgContainer">
 						<img
-							src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542612589/Nick%2005-05/Capture_2.jpg"
+							src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561844/Nick%2005-05/DSC_0948_2.png"
 							alt="Capture_2"
 						/>
 					</div>

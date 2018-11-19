@@ -33,7 +33,7 @@ class UltimateExEyelinerSpot extends Component {
 					</article>
 					<div styleName="imgContainer">
 						<img
-							src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542612589/Nick%2005-05/Capture_2.jpg"
+							src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561841/Nick%2005-05/CRA_P_1028eyeliner_A01_s.jpg"
 							alt="Capture_2"
 						/>
 					</div>
