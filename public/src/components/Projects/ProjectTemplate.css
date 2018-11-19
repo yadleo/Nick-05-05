@@ -53,6 +53,9 @@
 	padding-bottom: 2rem;
 }
 
+.infoDescription a {
+	color: white;
+}
 .imgContainer {
 	margin-bottom: 5.5rem;
 }

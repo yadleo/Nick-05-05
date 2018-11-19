@@ -18,12 +18,13 @@ class FormulationExhibitBook extends Component {
 					<article styleName="infoContainer">
 						<h1 styleName="infoTitle">Formulation Exhibit Book</h1>
 						<h3 className="infoDescription">
-							A homage to the South Korean film, Oldboy, we created a title
-							sequence that illustrates the passage of time in the film. As we
-							pass through the different locations that Dae-Suk travels through,
-							we also see his sanity unravelling, as each location becomes more
-							and more abstract. The lighting and tone of this piece illustrates
-							the mood of the film overall and the dark storyline.
+							Math is all around us and can explain everything in the world.
+							Instead of looking at math only through a scientific lens, this
+							book showcases seven artists that implements math in their art
+							works, from designers to scientists to photographers. We can all
+							use math to create beautiful pieces. Inspired by these artists,
+							the book is also designed through the use of mathematical ratios
+							and formulas.
 						</h3>
 					</article>
 					<div styleName="imgContainer">

@@ -8,7 +8,7 @@ class OneHundredSeasonFiveOpening extends Component {
 			<main styleName="mainWrapper">
 				<div styleName="iframeContainer">
 					<iframe
-						src="https://player.vimeo.com/video/96555639"
+						src="https://player.vimeo.com/video/301564612"
 						webkitallowfullscreen="true"
 						mozallowfullscreen="true"
 						allowFullScreen
@@ -17,13 +17,20 @@ class OneHundredSeasonFiveOpening extends Component {
 				<div styleName="mainContainer">
 					<article styleName="infoContainer">
 						<h1 styleName="infoTitle">the 100 season 5 opening</h1>
-						<h3 className="infoDescription">
-							A homage to the South Korean film, Oldboy, we created a title
-							sequence that illustrates the passage of time in the film. As we
-							pass through the different locations that Dae-Suk travels through,
-							we also see his sanity unravelling, as each location becomes more
-							and more abstract. The lighting and tone of this piece illustrates
-							the mood of the film overall and the dark storyline.
+						<h3 styleName="infoDescription">
+							After the Praimfaya ravaged Earth at the end of season 4 of The
+							100, we are brought back to Earth 6 years later in the start of
+							Season 5. The opening to season 5 of The 100 serves as a callback
+							to the events of Season 4 but also as a foretelling of things to
+							come in Season 5. As the fire burns across the previous opening,
+							we then had to create the world that remained in the aftermath of
+							Praimfaya.
+							<br />
+							This project was worked on during an internship at Plucky (
+							<a href="http://www.plucky.la/">http://www.plucky.la/</a>).
+							<br />
+							<br />
+							Role: 2D Animator, Compositor, UI Design
 						</h3>
 					</article>
 					<div styleName="imgContainer">
