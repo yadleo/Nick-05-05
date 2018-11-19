@@ -6,6 +6,9 @@ import Header from "./Header/Header";
 import Work from "./Work/Work";
 import Info from "./Info/Info";
 import OldBoyTitleSeq from "./Projects/OldBoyTitleSeq";
+import OneHundredSeasonFiveOpening from "./Projects/OneHundredSeasonFiveOpening";
+import UltimateExEyelinerSpot from "./Projects/UltimateExEyelinerSpot";
+import FormulationExhibitBook from "./Projects/FormulationExhibitBook";
 
 class App extends Component {
 	constructor(props) {
@@ -21,6 +24,18 @@ class App extends Component {
 						<Route path="/work" component={Work} />
 						<Route path="/info" component={Info} />
 						<Route path="/old_boy_title_sequence" component={OldBoyTitleSeq} />
+						<Route
+							path="/the_100_season_5_opening"
+							component={OneHundredSeasonFiveOpening}
+						/>
+						<Route
+							path="/1028_ultimate_ex_eyeliner_spot"
+							component={UltimateExEyelinerSpot}
+						/>
+						<Route
+							path="/formulation_exhibit_book"
+							component={FormulationExhibitBook}
+						/>
 					</Switch>
 				</div>
 			</HashRouter>

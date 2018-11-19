@@ -9,22 +9,26 @@ class ProjectList extends Component {
 		this.state = {
 			entries: [
 				{
-					title: "Capture_2",
+					projTitle: "old_boy_title_sequence",
+					imgTitle: "Capture_2",
 					imgUrl:
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542612589/Nick%2005-05/Capture_2.jpg"
 				},
 				{
-					title: "the100_s5credits",
+					projTitle: "the_100_season_5_opening",
+					imgTitle: "the100_s5credits",
 					imgUrl:
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561846/Nick%2005-05/the100_s5credits_0015.jpg"
 				},
 				{
-					title: "CRA_P_1028eyeliner_A01_s",
+					projTitle: "1028_ultimate_ex_eyeliner_spot",
+					imgTitle: "CRA_P_1028eyeliner_A01_s",
 					imgUrl:
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561841/Nick%2005-05/CRA_P_1028eyeliner_A01_s.jpg"
 				},
 				{
-					title: "DSC_0948_2",
+					projTitle: "formulation_exhibit_book",
+					imgTitle: "DSC_0948_2",
 					imgUrl:
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561844/Nick%2005-05/DSC_0948_2.png"
 				}
@@ -40,8 +44,9 @@ class ProjectList extends Component {
 					{entries.map((entry, idx) => {
 						return (
 							<ProjectEntry
-								key={`${entry.title}-${idx}`}
-								title={entry.title}
+								key={`${entry.projTitle}-${idx}`}
+								projTitle={entry.projTitle}
+								imgTitle={entry.imgTitle}
 								imgUrl={entry.imgUrl}
 							/>
 						);

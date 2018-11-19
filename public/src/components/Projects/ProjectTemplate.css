@@ -41,10 +41,6 @@
 	width: 100%;
 }
 
-.imgContainer img {
-	max-width: 100%;
-}
-
 .infoContainer {
 	padding: 3.2rem 2.4rem 4rem 2rem;
 	line-height: 1.55;
@@ -55,4 +51,12 @@
 	text-transform: uppercase;
 	font-weight: 800;
 	padding-bottom: 2rem;
+}
+
+.imgContainer {
+	margin-bottom: 5.5rem;
+}
+
+.imgContainer img {
+	max-width: 100%;
 }

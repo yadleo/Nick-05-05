@@ -1,14 +1,17 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import CssModules from "react-css-modules";
 import styles from "./ProjectEntry.css";
 
 class ProjectEntry extends Component {
 	render() {
-		const { title, imgUrl } = this.props;
+		const { projTitle, imgTitle, imgUrl } = this.props;
 		return (
 			<li styleName="entry">
 				<div styleName="imgContainer">
-					<img src={imgUrl} alt={title} />
+					<Link to={`/${projTitle}`}>
+						<img src={imgUrl} alt={imgTitle} />
+					</Link>
 				</div>
 			</li>
 		);

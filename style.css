@@ -268,10 +268,6 @@ a:active {
 	width: 100%;
 }
 
-.ProjectTemplate__imgContainer___11ykq img {
-	max-width: 100%;
-}
-
 .ProjectTemplate__infoContainer___2ZOYB {
 	padding: 3.2rem 2.4rem 4rem 2rem;
 	line-height: 1.55;
@@ -282,5 +278,13 @@ a:active {
 	text-transform: uppercase;
 	font-weight: 800;
 	padding-bottom: 2rem;
+}
+
+.ProjectTemplate__imgContainer___11ykq {
+	margin-bottom: 5.5rem;
+}
+
+.ProjectTemplate__imgContainer___11ykq img {
+	max-width: 100%;
 }
 
