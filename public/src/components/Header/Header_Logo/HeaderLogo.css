@@ -2,6 +2,7 @@
 	margin: 1rem;
 	width: 10rem;
 	height: 10rem;
+	background-color: black;
 }
 
 @media (max-width: 47.99em) {

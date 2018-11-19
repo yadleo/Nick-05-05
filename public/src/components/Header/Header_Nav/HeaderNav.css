@@ -11,6 +11,7 @@
 	justify-content: space-evenly;
 	margin: 1rem;
 	text-transform: uppercase;
+	background-color: black;
 }
 
 @media (max-width: 47.99em) {

@@ -1,5 +1,5 @@
 .mainWrapper {
-	padding: 3.2rem 2.4rem 4rem;
+	padding: 3.2rem 0 4rem;
 }
 
 .projectList {
@@ -19,22 +19,15 @@
 
 @media (min-width: 60em) {
 	.mainWrapper {
-		padding-left: 3.2rem;
+		/* padding-left: 3.2rem; */
 		padding-top: 4rem;
-		padding-right: 3.2rem;
+		/* padding-right: 3.2rem; */
 		padding-bottom: 4rem;
 	}
 }
 
 @media (min-width: 67.5em) {
 	.mainWrapper {
-		padding: 4.8rem 8rem 12.8rem;
-	}
-}
-
-@media (min-width: 90em) {
-	.mainWrapper {
-		padding-left: 12.8rem;
-		padding-right: 12.8rem;
+		padding: 4.8rem 0 12.8rem;
 	}
 }

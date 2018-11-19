@@ -17,7 +17,6 @@
 	padding-left: 3.2rem;
 	padding-right: 3.2rem;
 	height: 12rem;
-	background-color: black;
 }
 
 @media (max-width: 47.99em) {
@@ -56,6 +55,7 @@
 	justify-content: space-evenly;
 	margin: 1rem;
 	text-transform: uppercase;
+	background-color: black;
 }
 
 @media (max-width: 47.99em) {
@@ -76,6 +76,7 @@
 	margin: 1rem;
 	width: 10rem;
 	height: 10rem;
+	background-color: black;
 }
 
 @media (max-width: 47.99em) {
@@ -109,7 +110,7 @@
 
 
 .ProjectList__mainWrapper___3Cke2 {
-	padding: 3.2rem 2.4rem 4rem;
+	padding: 3.2rem 0 4rem;
 }
 
 .ProjectList__projectList___3vbY5 {
@@ -129,23 +130,16 @@
 
 @media (min-width: 60em) {
 	.ProjectList__mainWrapper___3Cke2 {
-		padding-left: 3.2rem;
+		/* padding-left: 3.2rem; */
 		padding-top: 4rem;
-		padding-right: 3.2rem;
+		/* padding-right: 3.2rem; */
 		padding-bottom: 4rem;
 	}
 }
 
 @media (min-width: 67.5em) {
 	.ProjectList__mainWrapper___3Cke2 {
-		padding: 4.8rem 8rem 12.8rem;
-	}
-}
-
-@media (min-width: 90em) {
-	.ProjectList__mainWrapper___3Cke2 {
-		padding-left: 12.8rem;
-		padding-right: 12.8rem;
+		padding: 4.8rem 0 12.8rem;
 	}
 }
 
@@ -156,10 +150,6 @@
 	width: 100%;
 }
 
-.ProjectEntry__imgContainer___YAgZu {
-	max-width: 60rem;
-}
-
 .ProjectEntry__imgContainer___YAgZu img {
 	width: 100%;
 	height: 100%;
@@ -167,7 +157,7 @@
 
 @media (min-width: 60em) {
 	.ProjectEntry__entry___TZS7c {
-		max-width: calc((100% - 2.4rem) / 2);
+		max-width: calc((100% - 1rem) / 2);
 	}
 }
 
