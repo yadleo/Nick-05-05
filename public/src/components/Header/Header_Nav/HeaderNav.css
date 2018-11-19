@@ -1,8 +1,10 @@
 .container {
+	width: 10rem;
+	height: 10rem;
 	font-size: 1.6rem;
 	font-weight: 500;
 	line-height: 1;
-	letter-spacing: 1.2rem;
+	letter-spacing: 1rem;
 	display: -ms-flexbox;
 	display: flex;
 	-ms-flex-direction: column;
@@ -16,14 +18,16 @@
 
 @media (max-width: 47.99em) {
 	.container {
-		-ms-flex-direction: row;
-		flex-direction: row;
-		align-items: center;
+		width: 6rem;
+		height: 6rem;
+		font-size: 1rem;
+		font-weight: 700;
+		letter-spacing: 0.5rem;
 	}
 }
 
 .container a {
 	text-decoration: none;
 	color: white;
-	margin-left: 2rem;
+	padding: 1rem;
 }
