@@ -1,5 +1,14 @@
 .container {
 	display: -ms-flexbox;
 	display: flex;
-	/* justify-content: space-between; */
+	margin-right: 2rem;
+}
+
+@media (min-width: 60em) {
+	.container {
+		-ms-flex-direction: column;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-bottom: 2rem;
+	}
 }

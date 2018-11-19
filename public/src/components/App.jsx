@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import CssModules from "react-css-modules";
 import styles from "./App.css";
 import Header from "./Header/Header";
 import Work from "./Work/Work";
+import Info from "./Info/Info";
 
 class App extends Component {
 	constructor(props) {
@@ -10,10 +12,15 @@ class App extends Component {
 	}
 	render() {
 		return (
-			<div styleName="appFrame">
-				<Header />
-				<Work />
-			</div>
+			<HashRouter>
+				<div styleName="appFrame">
+					<Header />
+					<Switch>
+						<Route exact path="/" component={Work} />
+						<Route path="/info" component={Info} />
+					</Switch>
+				</div>
+			</HashRouter>
 		);
 	}
 }
