@@ -10,7 +10,7 @@ class Work extends Component {
 			<main styleName="mainWrapper">
 				<div styleName="mainContainer">
 					<section styleName="componentsContainer">
-						<Reel />
+						{/* <Reel /> */}
 						<ProjectList />
 					</section>
 				</div>

@@ -93,7 +93,6 @@ a {
 
 .ProjectList__projectList___3vbY5 {
 	margin-bottom: 4rem;
-	border-top: 0.4rem solid #f4f6f8;
 }
 
 @media (min-width: 30em) {
@@ -104,12 +103,6 @@ a {
 		flex-wrap: wrap;
 		-ms-flex-pack: justify;
 		justify-content: space-between;
-	}
-}
-
-@media (min-width: 48em) {
-	.ProjectList__projectList___3vbY5 {
-		padding-top: 4rem;
 	}
 }
 
@@ -168,6 +161,7 @@ a {
 }
 
 .Info__info___mFgYr {
+	font-size: 1.6rem;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
 	min-width: 0;
@@ -183,7 +177,7 @@ a {
 
 .Info__infoBio___1v9AN {
 	color: white;
-	max-width: 30rem;
+	max-width: 50rem;
 	line-height: 1.55;
 }
 

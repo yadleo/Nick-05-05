@@ -9,6 +9,7 @@
 }
 
 .info {
+	font-size: 1.6rem;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
 	min-width: 0;
@@ -24,7 +25,7 @@
 
 .infoBio {
 	color: white;
-	max-width: 30rem;
+	max-width: 50rem;
 	line-height: 1.55;
 }
 

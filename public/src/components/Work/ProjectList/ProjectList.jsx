@@ -36,7 +36,6 @@ class ProjectList extends Component {
 		let entries = this.state.entries;
 		return (
 			<div styleName="mainWrapper">
-				ProjectList
 				<ul styleName="projectList">
 					{entries.map((entry, idx) => {
 						return (
