@@ -11,7 +11,7 @@ class ProjectList extends Component {
 				{
 					title: "Capture_2",
 					imgUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561841/Nick%2005-05/Capture_2.jpg"
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542612589/Nick%2005-05/Capture_2.jpg"
 				},
 				{
 					title: "the100_s5credits",
