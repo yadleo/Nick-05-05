@@ -36,7 +36,7 @@ class OneHundredSeasonFiveOpening extends Component {
 					<div styleName="imgContainer">
 						<img
 							src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561846/Nick%2005-05/the100_s5credits_0015.jpg"
-							alt="Capture_2"
+							alt="the100_s5credits"
 						/>
 					</div>
 				</div>

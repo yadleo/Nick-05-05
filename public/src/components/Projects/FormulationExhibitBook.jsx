@@ -30,7 +30,7 @@ class FormulationExhibitBook extends Component {
 					<div styleName="imgContainer">
 						<img
 							src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561844/Nick%2005-05/DSC_0948_2.png"
-							alt="Capture_2"
+							alt="DSC_0948_2"
 						/>
 					</div>
 				</div>

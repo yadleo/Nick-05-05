@@ -34,7 +34,7 @@ class UltimateExEyelinerSpot extends Component {
 					<div styleName="imgContainer">
 						<img
 							src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561841/Nick%2005-05/CRA_P_1028eyeliner_A01_s.jpg"
-							alt="Capture_2"
+							alt="CRA_P_1028eyeliner"
 						/>
 					</div>
 				</div>
