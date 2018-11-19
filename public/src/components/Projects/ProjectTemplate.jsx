@@ -6,15 +6,17 @@ class ProjectTemplate extends Component {
 	render() {
 		return (
 			<main className="mainWrapper">
+				<div className="iframeContainer">{/* iframe */}</div>
 				<div className="mainContainer">
-					<section className="projectVideo">{/* video goes here */}</section>
-					<section className="projectInfo">
+					<article className="infoContainer">
 						<h1 className="projectInfoTitle">Title Goes Here</h1>
 						<h3 className="projectInfoDescription">
 							Project Description Goes Here
 						</h3>
-					</section>
-					<section className="projectImgs">Project Images goes here</section>
+					</article>
+					<div className="imgContainer">
+						<img src="" alt="" />
+					</div>
 				</div>
 			</main>
 		);

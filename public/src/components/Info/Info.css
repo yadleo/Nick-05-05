@@ -19,6 +19,7 @@
 	display: flex;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	-ms-flex-align: center;
 	align-items: center;
 	padding: 3.2rem 2.4rem 4rem;
 }

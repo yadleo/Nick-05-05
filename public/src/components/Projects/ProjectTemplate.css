@@ -1,0 +1,58 @@
+.mainWrapper {
+	visibility: visible;
+}
+
+.mainContainer {
+	max-width: 80rem;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 1.6rem;
+	color: white;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.iframeContainer {
+	position: relative;
+	padding-top: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+
+@media (min-width: 60em) {
+	.iframeContainer {
+		margin-left: 16rem;
+		margin-right: 16rem;
+	}
+}
+
+.iframeContainer iframe {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.imgContainer img {
+	max-width: 100%;
+}
+
+.infoContainer {
+	padding: 3.2rem 2.4rem 4rem 2rem;
+	line-height: 1.55;
+	margin-bottom: 3.5rem;
+}
+
+.infoTitle {
+	text-transform: uppercase;
+	font-weight: 800;
+	padding-bottom: 2rem;
+}
