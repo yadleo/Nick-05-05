@@ -12,19 +12,19 @@ class ProjectList extends Component {
 					projTitle: "old_boy_title_sequence",
 					imgTitle: "Capture_2",
 					imgUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542612589/Nick%2005-05/Capture_2.jpg"
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542658322/Nick%2005-05/gifs/oldboy_960px.gif"
 				},
 				{
 					projTitle: "the_100_season_5_opening",
 					imgTitle: "the100_s5credits",
 					imgUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561846/Nick%2005-05/the100_s5credits_0015.jpg"
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542658322/Nick%2005-05/gifs/the100_960px.gif"
 				},
 				{
 					projTitle: "1028_ultimate_ex_eyeliner_spot",
 					imgTitle: "CRA_P_1028eyeliner_A01_s",
 					imgUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561841/Nick%2005-05/CRA_P_1028eyeliner_A01_s.jpg"
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542658324/Nick%2005-05/gifs/1028_960px.gif"
 				},
 				{
 					projTitle: "formulation_exhibit_book",
