@@ -6,18 +6,10 @@ class FormulationExhibitBook extends Component {
 	render() {
 		return (
 			<main styleName="mainWrapper">
-				<div styleName="iframeContainer">
-					<iframe
-						src="https://player.vimeo.com/video/96555639"
-						webkitallowfullscreen="true"
-						mozallowfullscreen="true"
-						allowFullScreen
-					/>
-				</div>
 				<div styleName="mainContainer">
 					<article styleName="infoContainer">
 						<h1 styleName="infoTitle">Formulation Exhibit Book</h1>
-						<h3 className="infoDescription">
+						<h3 styleName="infoDescription">
 							Math is all around us and can explain everything in the world.
 							Instead of looking at math only through a scientific lens, this
 							book showcases seven artists that implements math in their art
@@ -27,12 +19,28 @@ class FormulationExhibitBook extends Component {
 							and formulas.
 						</h3>
 					</article>
-					<div styleName="imgContainer">
-						<img
-							src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561844/Nick%2005-05/DSC_0948_2.png"
-							alt="DSC_0948_2"
-						/>
-					</div>
+				</div>
+				<div styleName="imgContainer">
+					<img
+						src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623431/Nick%2005-05/formulations_edit_01.jpg"
+						alt="Formulation1"
+					/>
+					<img
+						src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623434/Nick%2005-05/formulations_edit_02.jpg"
+						alt="Formulation2"
+					/>
+					<img
+						src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623433/Nick%2005-05/formulations_edit_03.jpg"
+						alt="Formulation3"
+					/>
+					<img
+						src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/formulations_edit_04.jpg"
+						alt="Formulation4"
+					/>
+					<img
+						src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/formulations_edit_05.jpg"
+						alt="Formulation5"
+					/>
 				</div>
 			</main>
 		);

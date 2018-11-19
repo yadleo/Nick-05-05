@@ -17,7 +17,7 @@ class OldBoyTitleSeq extends Component {
 				<div styleName="mainContainer">
 					<article styleName="infoContainer">
 						<h1 styleName="infoTitle">Old Boy Title Sequence</h1>
-						<h3 className="infoDescription">
+						<h3 styleName="infoDescription">
 							A homage to the South Korean film, Oldboy, we created a title
 							sequence that illustrates the passage of time in the film. As we
 							pass through the different locations that Dae-Suk travels through,
@@ -26,12 +26,6 @@ class OldBoyTitleSeq extends Component {
 							the mood of the film overall and the dark storyline.
 						</h3>
 					</article>
-					<div styleName="imgContainer">
-						<img
-							src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542612589/Nick%2005-05/Capture_2.jpg"
-							alt="Capture_2"
-						/>
-					</div>
 				</div>
 			</main>
 		);

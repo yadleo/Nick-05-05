@@ -57,7 +57,6 @@
 	justify-content: space-evenly;
 	margin: 1rem;
 	text-transform: uppercase;
-	background-color: black;
 }
 
 @media (max-width: 47.99em) {
@@ -80,7 +79,6 @@
 	margin: 1rem;
 	width: 10rem;
 	height: 10rem;
-	background-color: black;
 }
 
 @media (max-width: 47.99em) {
@@ -216,7 +214,6 @@
 a:hover,
 a:active {
 	color: rgba(255, 255, 255, 0.678);
-	text-decoration: underline;
 }
 
 .ProjectTemplate__mainWrapper___2dted {
@@ -277,11 +274,12 @@ a:active {
 .ProjectTemplate__infoDescription___bRb7E a {
 	color: white;
 }
+
 .ProjectTemplate__imgContainer___11ykq {
-	margin-bottom: 5.5rem;
+	max-width: 140rem;
 }
 
 .ProjectTemplate__imgContainer___11ykq img {
-	max-width: 100%;
+	width: 100%;
 }
 

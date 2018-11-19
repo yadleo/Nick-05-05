@@ -56,10 +56,11 @@
 .infoDescription a {
 	color: white;
 }
+
 .imgContainer {
-	margin-bottom: 5.5rem;
+	max-width: 140rem;
 }
 
 .imgContainer img {
-	max-width: 100%;
+	width: 100%;
 }

@@ -26,19 +26,13 @@ class OneHundredSeasonFiveOpening extends Component {
 							we then had to create the world that remained in the aftermath of
 							Praimfaya.
 							<br />
-							This project was worked on during an internship at Plucky (
-							<a href="http://www.plucky.la/">http://www.plucky.la/</a>).
+							This project was worked on during an internship at
+							<a href="http://www.plucky.la/"> Plucky</a>.
 							<br />
 							<br />
 							Role: 2D Animator, Compositor, UI Design
 						</h3>
 					</article>
-					<div styleName="imgContainer">
-						<img
-							src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561846/Nick%2005-05/the100_s5credits_0015.jpg"
-							alt="the100_s5credits"
-						/>
-					</div>
 				</div>
 			</main>
 		);
