@@ -4,7 +4,8 @@
 	"description": "Nicholas Lai's Graphic Design Portfolio",
 	"main": "index.js",
 	"scripts": {
-		"build": "webpack -w & budo ./bundle.js --live --open"
+		"build": "webpack -w & budo ./bundle.js --live --open",
+		"deploy build": "webpack"
 	},
 	"repository": {
 		"type": "git",
