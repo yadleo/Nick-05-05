@@ -330,16 +330,28 @@ a:active {
 	color: white;
 }
 
-.ProjectTemplate__imgContainer___11ykq {
-	max-width: 140rem;
-}
-
-.ProjectTemplate__imgContainer___11ykq img {
-	width: 100%;
-}
-
 .Gallery__mainContainer___2IADx {
 	text-align: center;
 	position: relative;
+}
+
+.Gallery__button___8stfC {
+	letter-spacing: 0.2em;
+	font-size: 1em;
+	font-weight: bold;
+	color: white;
+	margin: 1em;
+	padding: 0.5em 1.5em;
+	cursor: pointer;
+}
+
+.Gallery__galleryContainer___JeKvj {
+	position: relative;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.Gallery__galleryContainer___JeKvj img {
+	max-width: calc(100%);
 }
 

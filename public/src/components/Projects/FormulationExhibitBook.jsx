@@ -31,7 +31,7 @@ class FormulationExhibitBook extends Component {
 						</h3>
 					</article>
 				</div>
-				<div styleName="imgContainer">
+				{/* <div styleName="imgContainer">
 					<img
 						src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623431/Nick%2005-05/formulations_edit_01.jpg"
 						alt="Formulation1"
@@ -52,7 +52,7 @@ class FormulationExhibitBook extends Component {
 						src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/formulations_edit_05.jpg"
 						alt="Formulation5"
 					/>
-				</div>
+				</div> */}
 			</main>
 		);
 	}

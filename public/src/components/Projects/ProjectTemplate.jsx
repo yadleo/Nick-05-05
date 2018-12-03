@@ -14,9 +14,6 @@ class ProjectTemplate extends Component {
 							Project Description Goes Here
 						</h3>
 					</article>
-					<div className="imgContainer">
-						<img src="" alt="" />
-					</div>
 				</div>
 			</main>
 		);

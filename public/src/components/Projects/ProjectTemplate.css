@@ -62,11 +62,3 @@
 .infoDescription a {
 	color: white;
 }
-
-.imgContainer {
-	max-width: 140rem;
-}
-
-.imgContainer img {
-	width: 100%;
-}
