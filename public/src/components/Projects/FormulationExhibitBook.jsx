@@ -1,12 +1,23 @@
 import React, { Component } from "react";
 import CssModules from "react-css-modules";
 import styles from "./ProjectTemplate.css";
+import Gallery from "./Gallery/Gallery";
+
+const data = [
+	"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623431/Nick%2005-05/formulations_edit_01.jpg",
+	"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623434/Nick%2005-05/formulations_edit_02.jpg",
+	"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623433/Nick%2005-05/formulations_edit_03.jpg",
+	"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/formulations_edit_04.jpg",
+	"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/formulations_edit_05.jpg"
+];
 
 class FormulationExhibitBook extends Component {
+	// const { gallery, currImg } = this.state;
 	render() {
 		return (
 			<main styleName="mainWrapper" style={{ marginTop: 0 }}>
 				<div styleName="mainContainer">
+					<Gallery />
 					<article styleName="infoContainer">
 						<h1 styleName="infoTitle">Formulation Exhibit Book</h1>
 						<h3 styleName="infoDescription">
