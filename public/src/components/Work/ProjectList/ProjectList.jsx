@@ -12,24 +12,32 @@ class ProjectList extends Component {
 					projTitle: "old_boy_title_sequence",
 					imgTitle: "Capture_2",
 					imgUrl:
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/c_fill,h_1080,w_1920/v1542612589/Nick%2005-05/imgs/Capture_2.jpg",
+					gifUrl:
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/c_fill,g_xy_center,h_409,w_727/v1542658322/Nick%2005-05/gifs/oldboy_960px.gif"
 				},
 				{
 					projTitle: "the_100_season_5_opening",
 					imgTitle: "the100_s5credits",
 					imgUrl:
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561846/Nick%2005-05/imgs/the100_s5credits_0015.jpg",
+					gifUrl:
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542659405/Nick%2005-05/gifs/the100_960px_2.gif"
 				},
 				{
 					projTitle: "1028_ultimate_ex_eyeliner_spot",
 					imgTitle: "CRA_P_1028eyeliner_A01_s",
 					imgUrl:
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561841/Nick%2005-05/imgs/CRA_P_1028eyeliner_A01_s.jpg",
+					gifUrl:
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542658324/Nick%2005-05/gifs/1028_960px.gif"
 				},
 				{
 					projTitle: "formulation_exhibit_book",
 					imgTitle: "DSC_0948_2",
 					imgUrl:
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/imgs/formulations_edit_05.jpg",
+					gifUrl:
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/imgs/formulations_edit_05.jpg"
 				}
 			]
@@ -48,6 +56,7 @@ class ProjectList extends Component {
 								projTitle={entry.projTitle}
 								imgTitle={entry.imgTitle}
 								imgUrl={entry.imgUrl}
+								gifUrl={entry.gifUrl}
 							/>
 						);
 					})}
