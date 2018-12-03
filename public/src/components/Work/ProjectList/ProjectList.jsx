@@ -12,7 +12,7 @@ class ProjectList extends Component {
 					projTitle: "old_boy_title_sequence",
 					imgTitle: "Capture_2",
 					imgUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542658322/Nick%2005-05/gifs/oldboy_960px.gif"
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/c_fill,g_xy_center,h_409,w_727/v1542658322/Nick%2005-05/gifs/oldboy_960px.gif"
 				},
 				{
 					projTitle: "the_100_season_5_opening",
@@ -30,7 +30,7 @@ class ProjectList extends Component {
 					projTitle: "formulation_exhibit_book",
 					imgTitle: "DSC_0948_2",
 					imgUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561844/Nick%2005-05/DSC_0948_2.png"
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/imgs/formulations_edit_05.jpg"
 				}
 			]
 		};
