@@ -6,31 +6,31 @@ const data = [
 	{
 		index: 0,
 		imgUrl:
-			"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623431/Nick%2005-05/formulations_edit_01.jpg",
+			"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623431/Nick%2005-05/imgs/formulation_edits/formulations_edit_01.jpg",
 		imgTitle: "formulations_01"
 	},
 	{
 		index: 1,
 		imgUrl:
-			"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623434/Nick%2005-05/formulations_edit_02.jpg",
+			"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623434/Nick%2005-05/imgs/formulation_edits/formulations_edit_02.jpg",
 		imgTitle: "formulations_02 "
 	},
 	{
 		index: 2,
 		imgUrl:
-			"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623433/Nick%2005-05/formulations_edit_03.jpg",
+			"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623433/Nick%2005-05/imgs/formulation_edits/formulations_edit_03.jpg",
 		imgTitle: "formulations_03"
 	},
 	{
 		index: 3,
 		imgUrl:
-			"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/formulations_edit_04.jpg",
+			"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/imgs/formulation_edits/formulations_edit_04.jpg",
 		imgTitle: "formulations_04"
 	},
 	{
 		index: 4,
 		imgUrl:
-			"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/formulations_edit_05.jpg",
+			"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/imgs/formulations_edit_05.jpg",
 		imgTitle: "formulations_05"
 	}
 ];
