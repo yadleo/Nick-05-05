@@ -265,20 +265,14 @@ a:active {
 	color: rgba(255, 255, 255, 0.678);
 }
 
-.ProjectTemplate__mainWrapper___2dted {
+.Project__mainWrapper___3f3HH {
 	visibility: visible;
+	margin-bottom: 4rem;
 }
 
-@media (min-width: 60em) {
-	.ProjectTemplate__mainWrapper___2dted {
-		margin-top: -9.5rem;
-	}
-}
-
-.ProjectTemplate__mainContainer___1GNKR {
-	max-width: 80rem;
-	margin-right: auto;
-	margin-left: auto;
+.Project__sectionInfo___2T2xN {
+	max-width: 100rem;
+	margin: 0 auto;
 	font-size: 1.6rem;
 	color: white;
 	-ms-flex: 1 1 auto;
@@ -291,21 +285,14 @@ a:active {
 	align-items: center;
 }
 
-.ProjectTemplate__iframeContainer___3hVMn {
+.Project__iframeContainer___1fVl8 {
 	position: relative;
 	padding-top: 56.25%;
 	height: 0;
 	overflow: hidden;
 }
 
-@media (min-width: 60em) {
-	.ProjectTemplate__iframeContainer___3hVMn {
-		margin-left: 16rem;
-		margin-right: 16rem;
-	}
-}
-
-.ProjectTemplate__iframeContainer___3hVMn iframe {
+.Project__iframeContainer___1fVl8 iframe {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -314,20 +301,64 @@ a:active {
 	width: 100%;
 }
 
-.ProjectTemplate__infoContainer___2ZOYB {
-	padding: 3.2rem 2.4rem 4rem 2rem;
+.Project__infoContainer___35x_U {
+	max-width: 80rem;
+	padding: 2rem;
 	line-height: 1.55;
 	margin-bottom: 3.5rem;
 }
 
-.ProjectTemplate__infoTitle___27ByV {
+.Project__infoTitle___w3iDR {
 	text-transform: uppercase;
 	font-weight: 800;
 	padding-bottom: 2rem;
 }
 
-.ProjectTemplate__infoDescription___bRb7E a {
+.Project__infoDescription___3f-T1 a {
 	color: white;
+}
+
+.Project__sectionImages___2UXKp {
+	text-align: center;
+	height: auto;
+}
+
+.Project__imagesList___1fXnj {
+	list-style: none;
+	width: 100%;
+}
+
+.Project__imagesItem___2dAa5 {
+	width: inherit;
+	height: auto;
+	text-align: center;
+}
+.Project__imagesItem___2dAa5:not(:last-child) {
+	margin-bottom: 2rem;
+}
+
+.Project__image___1V5qX {
+	width: 100%;
+	height: auto;
+}
+
+@media (min-width: 60em) {
+	.Project__mainWrapper___3f3HH {
+		margin-top: -9.5rem;
+	}
+
+	.Project__iframeContainer___1fVl8 {
+		margin-left: 16rem;
+		margin-right: 16rem;
+	}
+
+	.Project__imagesList___1fXnj {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.Project__imagesItem___2dAa5 {
+		margin: 0 auto;
+	}
 }
 
 .Gallery__mainContainer___2IADx {

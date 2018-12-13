@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import CssModules from "react-css-modules";
-import styles from "./ProjectTemplate.css";
+import styles from "./Project.css";
 
 class OneHundredSeasonFiveOpening extends Component {
 	render() {
@@ -14,7 +14,7 @@ class OneHundredSeasonFiveOpening extends Component {
 						allowFullScreen
 					/>
 				</div>
-				<div styleName="mainContainer">
+				<section styleName="sectionInfo">
 					<article styleName="infoContainer">
 						<h1 styleName="infoTitle">the 100 season 5 opening</h1>
 						<h3 styleName="infoDescription">
@@ -34,7 +34,7 @@ class OneHundredSeasonFiveOpening extends Component {
 							Role: 2D Animator, Compositor, UI Design
 						</h3>
 					</article>
-				</div>
+				</section>
 			</main>
 		);
 	}

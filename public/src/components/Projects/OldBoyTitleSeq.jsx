@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import CssModules from "react-css-modules";
-import styles from "./ProjectTemplate.css";
+import styles from "./Project.css";
 
 class OldBoyTitleSeq extends Component {
 	render() {
@@ -14,7 +14,7 @@ class OldBoyTitleSeq extends Component {
 						allowFullScreen
 					/>
 				</div>
-				<div styleName="mainContainer">
+				<section styleName="sectionInfo">
 					<article styleName="infoContainer">
 						<h1 styleName="infoTitle">Old Boy Title Sequence</h1>
 						<h3 styleName="infoDescription">
@@ -29,7 +29,7 @@ class OldBoyTitleSeq extends Component {
 							Role: Animator, 3D Modeler, Conceptor
 						</h3>
 					</article>
-				</div>
+				</section>
 			</main>
 		);
 	}

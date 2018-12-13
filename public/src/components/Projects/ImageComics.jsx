@@ -1,6 +1,19 @@
 import React, { Component } from "react";
 import CssModules from "react-css-modules";
-import styles from "./ProjectTemplate.css";
+import styles from "./Project.css";
+
+const imgSet = [
+	{
+		imgUrl:
+			"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544718643/Nick%2005-05/imgs/image_rebrand/web_02_mural.png",
+		imgTitle: "mural"
+	},
+	{
+		imgUrl:
+			"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544718642/Nick%2005-05/imgs/image_rebrand/web_03_convention.png",
+		imgTitle: "convention"
+	}
+];
 
 class ImageComics extends Component {
 	render() {
@@ -14,7 +27,7 @@ class ImageComics extends Component {
 						allowFullScreen
 					/>
 				</div>
-				<div styleName="mainContainer">
+				<section styleName="sectionInfo">
 					<article styleName="infoContainer">
 						<h1 styleName="infoTitle">IMAGE COMICS Rebrand</h1>
 						<h3 styleName="infoDescription">
@@ -27,7 +40,19 @@ class ImageComics extends Component {
 							still embrace and celebrate their ideal more than ever before.
 						</h3>
 					</article>
-				</div>
+				</section>
+
+				<section styleName="sectionImages">
+					<ul styleName="imagesList">
+						{imgSet.map(img => {
+							return (
+								<li styleName="imagesItem">
+									<img src={img.imgUrl} alt={img.imgTitle} styleName="image" />
+								</li>
+							);
+						})}
+					</ul>
+				</section>
 			</main>
 		);
 	}

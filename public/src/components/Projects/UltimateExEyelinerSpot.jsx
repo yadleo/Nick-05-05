@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import CssModules from "react-css-modules";
-import styles from "./ProjectTemplate.css";
+import styles from "./Project.css";
 
 class UltimateExEyelinerSpot extends Component {
 	render() {
@@ -14,7 +14,7 @@ class UltimateExEyelinerSpot extends Component {
 						allowFullScreen
 					/>
 				</div>
-				<div styleName="mainContainer">
+				<section styleName="sectionInfo">
 					<article styleName="infoContainer">
 						<h1 styleName="infoTitle">1028 ultimate ex eyeliner spot</h1>
 						<h3 styleName="infoDescription">
@@ -32,7 +32,7 @@ class UltimateExEyelinerSpot extends Component {
 							Role: 2D Animator, Compositor
 						</h3>
 					</article>
-				</div>
+				</section>
 			</main>
 		);
 	}

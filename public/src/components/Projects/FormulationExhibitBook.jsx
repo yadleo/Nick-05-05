@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import CssModules from "react-css-modules";
-import styles from "./ProjectTemplate.css";
+import styles from "./Project.css";
 import Gallery from "./Gallery/Gallery";
 
 const data = [
@@ -16,7 +16,7 @@ class FormulationExhibitBook extends Component {
 	render() {
 		return (
 			<main styleName="mainWrapper" style={{ marginTop: 0 }}>
-				<div styleName="mainContainer">
+				<section styleName="sectionInfo">
 					<Gallery />
 					<article styleName="infoContainer">
 						<h1 styleName="infoTitle">Formulation Exhibit Book</h1>
@@ -30,7 +30,7 @@ class FormulationExhibitBook extends Component {
 							and formulas.
 						</h3>
 					</article>
-				</div>
+				</section>
 				{/* <div styleName="imgContainer">
 					<img
 						src="https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623431/Nick%2005-05/formulations_edit_01.jpg"
