@@ -12,25 +12,25 @@ class ProjectList extends Component {
 					projTitle: "old_boy_title_sequence",
 					imgTitle: "Capture_2",
 					imgUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/c_fill,h_1080,w_1920/v1542612589/Nick%2005-05/imgs/Capture_2.jpg",
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544717158/Nick%2005-05/imgs/oldboy_thumbnail.png",
 					gifUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/c_fill,g_xy_center,h_409,w_727/v1542658322/Nick%2005-05/gifs/oldboy_960px.gif"
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544716705/Nick%2005-05/gifs/oldboy.gif"
 				},
 				{
 					projTitle: "the_100_season_5_opening",
 					imgTitle: "the100_s5credits",
 					imgUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561846/Nick%2005-05/imgs/the100_s5credits_0015.jpg",
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544717154/Nick%2005-05/imgs/the100_thumbnail.png",
 					gifUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542659405/Nick%2005-05/gifs/the100_960px_2.gif"
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544716700/Nick%2005-05/gifs/the100.gif"
 				},
 				{
 					projTitle: "1028_ultimate_ex_eyeliner_spot",
 					imgTitle: "CRA_P_1028eyeliner_A01_s",
 					imgUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542561841/Nick%2005-05/imgs/CRA_P_1028eyeliner_A01_s.jpg",
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544717155/Nick%2005-05/imgs/1028_thumbnail.png",
 					gifUrl:
-						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542658324/Nick%2005-05/gifs/1028_960px.gif"
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544716703/Nick%2005-05/gifs/1028.gif"
 				},
 				{
 					projTitle: "formulation_exhibit_book",
@@ -39,6 +39,22 @@ class ProjectList extends Component {
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/imgs/formulations_edit_05.jpg",
 					gifUrl:
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/imgs/formulations_edit_05.jpg"
+				},
+				{
+					projTitle: "LEAP",
+					imgTitle: "Leap",
+					imgUrl:
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544717155/Nick%2005-05/imgs/leap_thumbnail.png",
+					gifUrl:
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544716707/Nick%2005-05/gifs/leap.gif"
+				},
+				{
+					projTitle: "IMAGE COMICS",
+					imgTitle: "Image comics",
+					imgUrl:
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544717157/Nick%2005-05/imgs/image_thumbnail.png",
+					gifUrl:
+						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544717157/Nick%2005-05/imgs/image_thumbnail.png"
 				}
 			]
 		};
