@@ -9,6 +9,8 @@ import OldBoyTitleSeq from "./Projects/OldBoyTitleSeq";
 import OneHundredSeasonFiveOpening from "./Projects/OneHundredSeasonFiveOpening";
 import UltimateExEyelinerSpot from "./Projects/UltimateExEyelinerSpot";
 import FormulationExhibitBook from "./Projects/FormulationExhibitBook";
+import Leap from "./Projects/Leap";
+import ImageComics from "./Projects/ImageComics";
 
 class App extends Component {
 	constructor(props) {
@@ -36,6 +38,8 @@ class App extends Component {
 							path="/formulation_exhibit_book"
 							component={FormulationExhibitBook}
 						/>
+						<Route path="/leap" component={Leap} />
+						<Route path="/image_comics" component={ImageComics} />
 					</Switch>
 				</div>
 			</HashRouter>

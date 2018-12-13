@@ -41,7 +41,7 @@ class ProjectList extends Component {
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1542623432/Nick%2005-05/imgs/formulations_edit_05.jpg"
 				},
 				{
-					projTitle: "LEAP",
+					projTitle: "leap",
 					imgTitle: "Leap",
 					imgUrl:
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544717155/Nick%2005-05/imgs/leap_thumbnail.png",
@@ -49,8 +49,8 @@ class ProjectList extends Component {
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544716707/Nick%2005-05/gifs/leap.gif"
 				},
 				{
-					projTitle: "IMAGE COMICS",
-					imgTitle: "Image comics",
+					projTitle: "image_comics",
+					imgTitle: "Image_Comics",
 					imgUrl:
 						"https://res.cloudinary.com/dqhe5ks7u/image/upload/v1544717157/Nick%2005-05/imgs/image_thumbnail.png",
 					gifUrl:

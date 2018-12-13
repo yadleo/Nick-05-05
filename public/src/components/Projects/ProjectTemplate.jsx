@@ -9,10 +9,8 @@ class ProjectTemplate extends Component {
 				<div className="iframeContainer">{/* iframe */}</div>
 				<div className="mainContainer">
 					<article className="infoContainer">
-						<h1 className="projectInfoTitle">Title Goes Here</h1>
-						<h3 className="projectInfoDescription">
-							Project Description Goes Here
-						</h3>
+						<h1 className="infoTitle">Title Goes Here</h1>
+						<h3 className="infoDescription">Project Description Goes Here</h3>
 					</article>
 				</div>
 			</main>
