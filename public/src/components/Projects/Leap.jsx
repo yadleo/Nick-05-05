@@ -66,7 +66,7 @@ class Leap extends Component {
 			<main styleName="mainWrapper">
 				<div styleName="iframeContainer">
 					<iframe
-						src="https://player.vimeo.com/video/306180160"
+						src="https://player.vimeo.com/video/309574990"
 						webkitallowfullscreen="true"
 						mozallowfullscreen="true"
 						allowFullScreen
